@@ -1,5 +1,5 @@
-include "holberton.h"
-
+#include "holberton.h"
+#include <stdlib.h>
 /**
  * swap_char - swaps | and & for non-printed chars
  *
