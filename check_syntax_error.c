@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * repeated_char - function that counts the repetitions of a char
+ * repeated_char - this function that counts the repetitions of a char
  *
  * @input: input string
  * @i: index
