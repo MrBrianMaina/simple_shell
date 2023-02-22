@@ -4,19 +4,3 @@
 
 # Ignore executable file
 *.out
-
-# Ignore these
-1-exec_line.c
-2-exit_shell.c
-3-get_builtin.c
-4-get_error.c
-5-get_help.c
-6-get_line.c
-7-get_sigint.c
-8-read_line.c
-9-rep_var.c
-10-shell_loop.c
-11-split.c
-12-aux_error1.c
-13-aux_error2.c
-14-aux_str3.c
