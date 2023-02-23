@@ -16,14 +16,14 @@ int _erratoi(char *s)
 	for (i = 0;  s[i] != '\0'; i++)
 	{
 	if (s[i] >= 0 && s[i] <= '9')
-				{
-					result *= 10;
-					result += (s[i] - '0');
-					if (result > INT_MAX)
-						return (-1);
-				}
-		else
+	{
+		result *= 10;
+		result += (s[i] - '0');
+		if (result > INT_MAX)
 			return (-1);
+	}
+	else
+		return (-1);
 	}
 	return (result);
 }
@@ -111,7 +111,7 @@ char *convert_number(long int num, int base, int flags)
 	array = flags & CONVERT_LOWERCASE ? "0123456789abcdef" : "0123456789ABCDEF";
 	ptr = &buffer[49];
 	*ptr = '\0';
-	do    	{
+	do {
 		*--ptr = array[n % base];
 		n /= base;
 	} while (n != 0);
